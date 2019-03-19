@@ -55,11 +55,11 @@ The localization loss on the training set decreased as the number of steps incre
 							
 ![Loss curve on the training set](/images/loss_1.png)
 
-<center>**Figure 2.** Loss curve on the training set.</center>
+<center> **Figure 2.** Loss curve on the training set. </center>
 							
 ![Loss on the test set](/images/loss_1.png)
 
-<center>**Figure 3.** Loss on the test set.</center>
+<center> **Figure 3.** Loss on the test set. </center>
 
 ## Summary
 A pre-trained **SSD mobile v2** model was re-trained on 386 images captured in the volen building at Brandeis University, giving loss functions at 0.075 and 0.453 one the training and test set, respectively. This model successfully localized bounding boxes for door plates appearing in raw videos (prediction results are placed in the `Results` file) and room numbers within each bounding box were recognized using **Google Cloud Vision APIs**.
