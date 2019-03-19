@@ -34,7 +34,7 @@ Two examples were provided within `results` of which each includes a original ra
 1. Architecture of SSD
 	Liu et al. proposed a model *SSD* for detecting objects in images and videos using a single deep neural network. It implements a multipile feature maps at the top followed by multi-scale convolutional bounding box outputs, which is the key feature of this model (**Figure 1**). As reported by authors, there is a significant improvement in the detection speed and accuracy, compared against current leading models such as *YOLO* and *Faster R-CNN*. For more details, please refer to the [original paper](https://arxiv.org/abs/1512.02325).
 							
-							![SSD Architecture]("./images/SSD_1.png")
+							![SSD Architecture](/images/SSD_1.png)
 
 							**Figure 1.** The architecture of SSD.
 
@@ -52,11 +52,11 @@ Two examples were provided within `results` of which each includes a original ra
 ### Traning result
 The localization loss on the training set decreased as the number of steps increased and finally converged at 0.075 (**Figure 2**) whereas the loss on the test set converged at 0.453 (**Figure 3**)
 							
-							![Loss curve on the training set]("./images/loss_1.png")
+							![Loss curve on the training set](/images/loss_1.png)
 
 							**Figure 2.** Loss curve on the training set.
 							
-							![Loss on the test set]("./images/loss_1.png")
+							![Loss on the test set](/images/loss_1.png)
 
 							**Figure 2.** Loss on the test set.
 
