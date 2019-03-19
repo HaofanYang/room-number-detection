@@ -55,7 +55,7 @@ The localization loss on the training set decreased as the number of steps incre
 							
 ![Loss curve on the training set](/images/loss_1.png)
 
-_ **Figure 2.** Loss curve on the training set. _
+_**Figure 2.** Loss curve on the training set._
 							
 ![Loss on the test set](/images/loss_1.png)
 
