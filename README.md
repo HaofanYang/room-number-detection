@@ -37,7 +37,8 @@ Two examples were provided within `results` of which each includes a original ra
 							
 	![SSD Architecture](/images/SSD_1.png)
 
-<center>**Figure 1.** The architecture of SSD.</center>
+_**Figure 1.** The architecture of SSD._
+
 
 2. A **SSD mobile v2** model pre-trained with the **[COCO dataset](http://cocodataset.org/#home)** was downloaded from [this site](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) and this pre-trained model was used as the starting point for the training step.
 
@@ -56,10 +57,11 @@ The localization loss on the training set decreased as the number of steps incre
 ![Loss curve on the training set](/images/loss_1.png)
 
 _**Figure 2.** Loss curve on the training set._
-							
+			
+				
 ![Loss on the test set](/images/loss_1.png)
 
- **Figure 3.** Loss on the test set. 
+ _**Figure 3.** Loss on the test set._ 
 
 ## Summary
 A pre-trained **SSD mobile v2** model was re-trained on 386 images captured in the volen building at Brandeis University, giving loss functions at 0.075 and 0.453 one the training and test set, respectively. This model successfully localized bounding boxes for door plates appearing in raw videos (prediction results are placed in the `Results` file) and room numbers within each bounding box were recognized using **Google Cloud Vision APIs**.
